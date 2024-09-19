@@ -50,7 +50,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 # Create the Campaign DataFrame
 
-##  1.)Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
+##  1.) Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
 
   * The "cf_id" column
 
