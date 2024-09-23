@@ -23,8 +23,24 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
   * ### Create the Crowdfunding Database
     ![image](https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0)
 
+# ETL Process
+## Extract
+  * ### Data Sources: Describe where the data was sourced from (e.g., databases, APIs, files).
+  * ### Methods: Explain how the data was extracted (e.g., SQL queries, web scraping).
+
+## Transform
+  * ### Data Cleaning: Outline the steps taken to clean the data (e.g., handling missing values, normalization).
+  * ### Data Transformation: Detail any transformations applied (e.g., aggregating data, changing data types).
+## Load
+  * ### Target Database: Specify where the transformed data was loaded (e.g., data warehouse, cloud storage).
+  * ### Loading Process: Describe the methods used for loading the data (e.g., bulk loading, real-time loading).
+# Entity-Relationship Diagram:
+----insert ERD image here-------
 
 
+# Conclusions:
+  * ### Key Findings: Summarize the main insights gained from the project.
+  * ### Impact: Discuss the implications of your findings and any potential applications.
 
 
 ## References
