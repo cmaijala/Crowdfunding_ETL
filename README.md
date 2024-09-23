@@ -7,7 +7,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ### Contributors: Chinna Maijala, Abigail Serpa, and Kat Chu
   
-# Project 2 Overview
+# Project Overview
 
 ## For the ETL mini project, we focused practicing building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we created four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database.
 
