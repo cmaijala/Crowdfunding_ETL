@@ -14,13 +14,13 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 # Objective
 ## The instructions for this mini project are divided into the following subsections:
 
-  * Create the Category and Subcategory DataFrames
+  * ### Create the Category and Subcategory DataFrames
     ![image](https://github.com/user-attachments/assets/dbd83c39-80ce-4758-bd09-aac8790aaf9a)
-  * Create the Campaign DataFrame
+  * ### Create the Campaign DataFrame
     ![image](https://github.com/user-attachments/assets/a6c7f4e6-8268-4848-a78a-ee3bf62466c3)
-  * Create the Contacts DataFrame
+  * ### Create the Contacts DataFrame
     ![image](https://github.com/user-attachments/assets/31fb3cc1-1591-4177-b77e-772a8e65f185)
-  * Create the Crowdfunding Database
+  * ### Create the Crowdfunding Database
     ![image](https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0)
 
 
