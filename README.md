@@ -12,22 +12,22 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 ## For the ETL mini project, we focused practicing building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we created four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database.
 
 ## Resources
-	###Input Files:
-	    •	campaign.csv
-	    •	category.csv
-	    •	contacts.xlsx
-	    •	crowdfunding.xlsx
-	    •	subcategory.csv
-	### Source Code:
+	Input Files:
+		• campaign.csv
+		• category.csv
+		• contacts.xlsx
+		• crowdfunding.xlsx
+		• subcategory.csv
+	Source Code:
 	  	• Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
-	### SQL Scripts:
+	SQL Scripts:
 		• crowdfunding_db_schema.sql
 		• crowdfunding_SQL_Analysis.sql
-	### Output Files:
+	Output Files:
 		• contacts_cleaned.csv
 		• campaign_cleaned.csv
 		• ERD-project2.png
-	### Software:
+	Software:
 		• PostgreSQL
 		• Quick DBD - free DBD canvas
 		• Python 3.10 or newer versions
