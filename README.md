@@ -12,33 +12,36 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 ## For the ETL mini project, we focused practicing building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we created four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database.
 
 ## Resources
-	•	Input Files:
-    •	campaign.csv
-    •	category.csv
-    •	contacts.xlsx
-    •	crowdfunding.xlsx
-    •	subcategory.csv
-	•	Source Code:
-	  •	Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
-	•	SQL Scripts:
-	  •	crowdfunding_db_schema.sql
-	  •	crowdfunding_SQL_Analysis.sql
-	•	Output Files:
-    •	contacts_cleaned.csv
-    •	campaign_cleaned.csv
-    •	ERD-project2.png
-	•	Software:
-    •	PostgreSQL
-    •	Quick DBD - free DBD canvas
-    •	Python 3.10 or newer versions
+	###Input Files:
+	    •	campaign.csv
+	    •	category.csv
+	    •	contacts.xlsx
+	    •	crowdfunding.xlsx
+	    •	subcategory.csv
+	### Source Code:
+	  	• Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
+	### SQL Scripts:
+		• crowdfunding_db_schema.sql
+		• crowdfunding_SQL_Analysis.sql
+	### Output Files:
+		• contacts_cleaned.csv
+		• campaign_cleaned.csv
+		• ERD-project2.png
+	### Software:
+		• PostgreSQL
+		• Quick DBD - free DBD canvas
+		• Python 3.10 or newer versions
 
 # Objective
 
 ## Our goal is to understand the ETL concepts relevant to the dataset through systematic steps and effective tools commonly used in database modeling and analysis. The outline of our deliverables and written report includes:
 
 ☑️ Deliverable 1: Extract Data
+
 ☑️ Deliverable 2: Transform and Clean Data
+
 ☑️ Deliverable 3: Create an ERD and Load Data
+
 ☑️ Deliverable 4: SQL Analysis and written report for the ETL analysis (this “README.md”).
 
 # ETL Process
