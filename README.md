@@ -100,7 +100,9 @@ Each file was loaded into its respective DataFrame for further processing and tr
   ### The Entity Relationship Diagrams (ERDs) representing relationships in our database can be reviewed in Fig. 1, created using [insert tool name or software]. During the process, we utilized Pandas, Numpy, and SQLAlchemy to extract, clean, and transform the data. We then loaded and explored the cleaned datasets using PostgreSQL and pgAdmin.
   
   # Entity-Relationship Diagram:
-  <img width="1400" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/c2baeab287f900217948e6e17f4f984f85d84c84/ERD-project2.png">
+  
+  <img width="1400" alt="image" src="https://github.com/user-attachments/assets/aee76711-b753-4229-85b2-74868a65dd12">
+
    Fig. 1: Entity Relationship Diagrams of ETL databases
 
 
