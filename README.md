@@ -88,7 +88,7 @@ The final data can be found in contacts_cleaned.csv and campaign_cleaned.csv.
    	* We used SQLAlchemy to connect to the PostgreSQL database from Python, which allowed us to create tables and insert data programmatically.
    	* Bulk Loading: The transformed DataFrames were loaded into PostgreSQL in bulk, ensuring efficient and fast insertion of data. The Pandas .to_sql() function was used to send the cleaned DataFrames directly to the database tables.	
 
-  ## Entity-Relationship Diagram:
+  ### Entity-Relationship Diagram:
   <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
 
 The ERD can be found in ERD-project2.png.
