@@ -16,20 +16,16 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 ### Finally, we uploaded the cleaned data into a PostgreSQL database to store and manage the data efficiently. Using PostgreSQL enabled us to perform advanced queries and analysis, and provided a scalable solution for handling large datasets while maintaining data integrity and security.
 
 ## Resources
-	Input Files:
+	Source Code:
+	  	• Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
+	SQL Scripts:
+		• crowdfunding_db_schema.sql
+	Output Files:
 		• campaign.csv
 		• category.csv
 		• contacts.xlsx
 		• crowdfunding.xlsx
 		• subcategory.csv
-	Source Code:
-	  	• Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
-	SQL Scripts:
-		• crowdfunding_db_schema.sql
-		• crowdfunding_SQL_Analysis.sql
-	Output Files:
-		• contacts_cleaned.csv
-		• campaign_cleaned.csv
 		• ERD-ETLproject2.png
 	Software:
 		• PostgreSQL
