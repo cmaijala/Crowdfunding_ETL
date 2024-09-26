@@ -23,9 +23,9 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 	Output Files:
 		• campaign.csv
 		• category.csv
-		• contacts.xlsx
+  		• subcategory.csv
+		• contacts.csv
 		• crowdfunding.xlsx
-		• subcategory.csv
 		• ERD-ETLproject2.png
 	Software:
 		• PostgreSQL
