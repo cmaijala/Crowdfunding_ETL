@@ -30,7 +30,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 	Output Files:
 		• contacts_cleaned.csv
 		• campaign_cleaned.csv
-		• ERD-project2.png
+		• ERD-ETLproject2.png
 	Software:
 		• PostgreSQL
 		• PGAdmin
@@ -91,7 +91,7 @@ The final data can be found in contacts_cleaned.csv and campaign_cleaned.csv.
   ### Entity-Relationship Diagram:
   <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
 
-The ERD can be found in ERD-project2.png.
+The ERD can be found in ERD-ETLproject2.png.
 
 ## Deliverable 4: SQL Analysis
   * ### After loading the cleaned data into PostgreSQL, we performed various SQL queries to analyze the data. The queries focused on understanding crowdfunding campaign outcomes, backers, and funding amounts. We also created summary tables to identify trends and insights.
