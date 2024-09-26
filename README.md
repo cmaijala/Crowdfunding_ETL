@@ -9,7 +9,11 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
   
 # Project Overview
 
-## For the ETL mini project, we focused practicing building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, we created four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database.
+## In this Extract, Transform, Load (ETL) mini project, we focused on building an ETL pipeline using Python and Pandas to extract and transform data. We utilized Python dictionary methods and regular expressions to handle the extraction and transformation. After cleaning and transforming the data, we generated four CSV files.
+
+These files were then used to create an Entity-Relationship Diagram (ERD) to map out relationships between the different entities, and we developed a table schema to define the structure of the PostgreSQL database. The schema ensured proper data organization, relationships between tables, and integrity constraints.
+
+Finally, we uploaded the cleaned data into a PostgreSQL database to store and manage the data efficiently. Using PostgreSQL enabled us to perform advanced queries and analysis, and provided a scalable solution for handling large datasets while maintaining data integrity and security.
 
 ## Resources
 	Input Files:
@@ -54,13 +58,13 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 The code to extract these datasets can be found in the file Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb.
 
   * ### Create the Category and Subcategory DataFrames
-    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/dbd83c39-80ce-4758-bd09-aac8790aaf9a">
+    <img width="600" alt="image" src="https://github.com/user-attachments/assets/dbd83c39-80ce-4758-bd09-aac8790aaf9a">
   * ### Create the Campaign DataFrame
-    <img width="1600" alt="image" src="https://github.com/user-attachments/assets/a6c7f4e6-8268-4848-a78a-ee3bf62466c3">
+    <img width="600" alt="image" src="https://github.com/user-attachments/assets/a6c7f4e6-8268-4848-a78a-ee3bf62466c3">
   * ### Create the Contacts DataFrame
-    <img width="500" alt="image" src="https://github.com/user-attachments/assets/e7c9bb20-505b-4319-8f9e-19fbe48fd419">
+    <img width="400" alt="image" src="https://github.com/user-attachments/assets/e7c9bb20-505b-4319-8f9e-19fbe48fd419">
   * ### Create the Crowdfunding Database
-    <img width="1400" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
+    <img width="600" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
 
 ## Deliverable 2: Clean and Transform Data
   * ### Data Cleaning:
@@ -85,7 +89,7 @@ The final data can be found in contacts_cleaned.csv and campaign_cleaned.csv.
    	* Bulk Loading: The transformed DataFrames were loaded into PostgreSQL in bulk, ensuring efficient and fast insertion of data. The Pandas .to_sql() function was used to send the cleaned DataFrames directly to the database tables.	
 
   ## Entity-Relationship Diagram:
-  <img width="1400" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
+  <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
 
 The ERD can be found in ERD-project2.png.
 
