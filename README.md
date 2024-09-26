@@ -84,7 +84,7 @@ The final data can be found in the Resources folder as: campaign.csv, category.c
 
 ## Deliverable 3: Load Data and Create ERD (Entity-Relationship Diagram)
   * ### Final Database:
-  	* An Entity-Relationship Diagram (ERD) was created in PGAdminto visualize the relationships between campaigns, categories, subcategories, and contacts.
+  	* An Entity-Relationship Diagram (ERD) was created in PGAdmin to visualize the relationships between campaigns, categories, subcategories, and contacts.
   	  * ###  Entity-Relationship Diagram:
 	  <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
 		
