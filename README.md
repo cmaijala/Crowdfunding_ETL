@@ -18,7 +18,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ## Resources
 	Source Code:
-	  	• Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
+	  	• Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
 	SQL Scripts:
 		• crowdfunding_db_schema.sql
   		• SELECT-CAMPAIGN.png
