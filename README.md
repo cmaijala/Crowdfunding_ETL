@@ -101,7 +101,7 @@ The ERD can be found in ERD-project2.png.
       
 The SQL scripts for this analysis can be found in crowdfunding_SQL_Analysis.sql.
 
-## Conclusions:
+## Conclusions
 #### Key Findings:
 - **Campaign Success Factors**: Patterns indicate higher success rates for categories like technology and creative arts.
 - **Contact Information Quality**: Cleaning the contacts data improved the accuracy of marketing and outreach efforts.
