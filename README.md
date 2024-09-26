@@ -21,8 +21,8 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 	SQL Scripts:
 		• crowdfunding_db_schema.sql
   		• SELECT-CAMPAIGN.png
-    		• SELECT-CATEGORY.png
-      		• SELECT-CONTACTS.png
+    	• SELECT-CATEGORY.png
+      	• SELECT-CONTACTS.png
 		• SELECT-SUBCATEGORY.png
   	Input Files:
    		• crowdfunding.xlsx 
