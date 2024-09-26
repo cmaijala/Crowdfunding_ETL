@@ -56,7 +56,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 The code to extract these datasets can be found in the file Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb.
 
   * ### Create the Category and Subcategory DataFrames
-    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/a6c7f4e6-8268-4848-a78a-ee3bf62466c3">
+    <img width="500" alt="image" src="https://github.com/user-attachments/assets/bc7a6f88-2239-4707-aad9-5362000522fc">
   * ### Create the Campaign DataFrame
     <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2baf9eee-16c0-42bd-9808-98dd70425893">
   * ### Create the Contacts DataFrame
