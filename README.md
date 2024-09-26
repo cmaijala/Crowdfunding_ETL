@@ -40,7 +40,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ☑️ Deliverable 2: Clean and Transform Data
 
-☑️ Deliverable 3: Create ERD (Entity-Relationship Diagram)
+☑️ Deliverable 3: Load Data and Create ERD (Entity-Relationship Diagram)
 
 ## ETL Process
 ## Deliverable 1: Extract Data
@@ -73,9 +73,9 @@ The code to extract these datasets can be found in the file Final-ETL_Mini_Proje
     	* New Calculations: Derived columns like percentage goal achieved by dividing pledged by goal.
    
 The code used can be found in Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb. 
-The final data can be found in contacts_cleaned.csv and campaign_cleaned.csv. 
+The final data can be found in the Resources folder as: campaign.csv, category.csv, subcategory.csv, contacts.csv. 
 
-## Deliverable 3: Create ERD ((Entity-Relationship Diagram)
+## Deliverable 3: Load Data and Create ERD ((Entity-Relationship Diagram)
   * ### Target Database: The cleaned data was loaded into PostgreSQL. The database schema was designed to support relationships between campaigns, categories, subcategories, and contacts.
   * ### Loading Process:
   	* We used the crowdfunding_db_schema.sql file to create the database schema in PostgreSQL. This file defined the structure of the tables and relationships necessary to load the transformed data.
