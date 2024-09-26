@@ -20,12 +20,18 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 	  	• Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
 	SQL Scripts:
 		• crowdfunding_db_schema.sql
-	Output Files:
+  		• SELECT-CAMPAIGN.png
+    		• SELECT-CATEGORY.png
+      		• SELECT-CONTACTS.png
+		• SELECT-SUBCATEGORY.png
+  	Input Files:
+   		• crowdfunding.xlsx 
+     		• contacts.xlsx	
+     	Output Files:
 		• campaign.csv
 		• category.csv
   		• subcategory.csv
 		• contacts.csv
-		• crowdfunding.xlsx
 		• ERD-ETLproject2.png
 	Software:
 		• PostgreSQL
@@ -34,7 +40,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ## Objective
 
-### Our goal is to understand the ETL concepts relevant to the dataset through systematic steps and effective tools commonly used in database modeling and analysis. The outline of our deliverables and written report includes:
+### Our goal is to understand the ETL concepts relevant to the dataset through systematic steps and effective tools commonly used in database modeling and analysis. The outline of our deliverables includes:
 
 ☑️ Deliverable 1: Extract Data
 
@@ -44,8 +50,8 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ## ETL Process
 ## Deliverable 1: Extract Data
-  * ### Data Sources: The data was sourced from a combination of CSV files and Excel spreadsheets.
- 	 * These included: campaign.csv, category.csv, subcategory.csv, contacts.xlsx, crowdfunding.xlsx.
+  * ### Data Sources: The data was sourced from Excel spreadsheets.
+ 	 * These included: crowdfunding.xlsx, contacts.xlsx. 
 
   * ### Methods: The data was extracted using Pandas and Python.
   
@@ -84,15 +90,19 @@ The final data can be found in the Resources folder as: campaign.csv, category.c
 
   ### Campaign Table
    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
+   The Category table can be found in SELECT-CAMPAIGN.png.
 
   ### Category Table
    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CATEGORY.png">
+   The Category table can be found in SELECT-CATEGORY.png.
 
    ### Contacts Table
    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CONTACTS.png">
-
+	The Contacts table can be found in SELECT-Contacts.png.
+ 
    ### Subcategory Table
-   <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CONTACTS.png">
+   <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/b9f2c935b6057438ad8e797a65d78c58d7b629cb/SELECT-SUBCATEGORY.png">
+   The Subcategory table can be found in SELECT-SUBCATEGORY.png.
 
   ### Entity-Relationship Diagram:
   <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
