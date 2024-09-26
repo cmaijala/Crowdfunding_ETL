@@ -36,9 +36,9 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 		• PGAdmin
 		• Python 3.10 or newer versions
 
-# Objective
+## Objective
 
-## Our goal is to understand the ETL concepts relevant to the dataset through systematic steps and effective tools commonly used in database modeling and analysis. The outline of our deliverables and written report includes:
+### Our goal is to understand the ETL concepts relevant to the dataset through systematic steps and effective tools commonly used in database modeling and analysis. The outline of our deliverables and written report includes:
 
 ☑️ Deliverable 1: Extract Data
 
@@ -48,7 +48,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ☑️ Deliverable 4: SQL Analysis 
 
-# ETL Process
+## ETL Process
 ## Deliverable 1: Extract Data
   * ### Data Sources: The data was sourced from a combination of CSV files and Excel spreadsheets.
  	 * These included: campaign.csv, category.csv, subcategory.csv, contacts.xlsx, crowdfunding.xlsx.
