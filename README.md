@@ -9,11 +9,11 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
   
 # Project Overview
 
-## In this Extract, Transform, Load (ETL) mini project, we focused on building an ETL pipeline using Python and Pandas to extract and transform data. We utilized Python dictionary methods and regular expressions to handle the extraction and transformation. After cleaning and transforming the data, we generated four CSV files.
+### In this Extract, Transform, Load (ETL) mini project, we focused on building an ETL pipeline using Python and Pandas to extract and transform data. We utilized Python dictionary methods and regular expressions to handle the extraction and transformation. After cleaning and transforming the data, we generated four CSV files.
 
-These files were then used to create an Entity-Relationship Diagram (ERD) to map out relationships between the different entities, and we developed a table schema to define the structure of the PostgreSQL database. The schema ensured proper data organization, relationships between tables, and integrity constraints.
+### These files were then used to create an Entity-Relationship Diagram (ERD) to map out relationships between the different entities, and we developed a table schema to define the structure of the PostgreSQL database. The schema ensured proper data organization, relationships between tables, and integrity constraints.
 
-Finally, we uploaded the cleaned data into a PostgreSQL database to store and manage the data efficiently. Using PostgreSQL enabled us to perform advanced queries and analysis, and provided a scalable solution for handling large datasets while maintaining data integrity and security.
+### Finally, we uploaded the cleaned data into a PostgreSQL database to store and manage the data efficiently. Using PostgreSQL enabled us to perform advanced queries and analysis, and provided a scalable solution for handling large datasets while maintaining data integrity and security.
 
 ## Resources
 	Input Files:
