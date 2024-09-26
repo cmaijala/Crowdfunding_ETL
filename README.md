@@ -56,13 +56,13 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 The code to extract these datasets can be found in the file Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb.
 
   * ### Create the Category and Subcategory DataFrames
-    <img width="900" alt="image" src="https://github.com/user-attachments/assets/a6c7f4e6-8268-4848-a78a-ee3bf62466c3">
+    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/a6c7f4e6-8268-4848-a78a-ee3bf62466c3">
   * ### Create the Campaign DataFrame
-    <img width="900" alt="image" src="https://github.com/user-attachments/assets/2baf9eee-16c0-42bd-9808-98dd70425893">
+    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2baf9eee-16c0-42bd-9808-98dd70425893">
   * ### Create the Contacts DataFrame
     <img width="400" alt="image" src="https://github.com/user-attachments/assets/e7c9bb20-505b-4319-8f9e-19fbe48fd419">
   * ### Create the Crowdfunding Database
-    <img width="600" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
+    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
 
 ## Deliverable 2: Clean and Transform Data
   * ### Data Cleaning:
