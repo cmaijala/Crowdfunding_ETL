@@ -27,7 +27,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
   	Input Files:
    		• crowdfunding.xlsx 
      	• contacts.xlsx	
-     	Output Files:
+     Output Files:
 		• campaign.csv
 		• category.csv
   		• subcategory.csv
