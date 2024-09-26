@@ -99,8 +99,8 @@ The final data can be found in the Resources folder as: campaign.csv, category.c
 	* Bulk Loading: The transformed DataFrames were loaded into PostgreSQL in bulk using the Pandas .to_sql() function, ensuring efficient and fast insertion of data.
 
 	 * ### Campaign Table
-	<img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
-	   The Category table can be found in SELECT-CAMPAIGN.png.
+		<img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
+	   	The Category table can be found in SELECT-CAMPAIGN.png.
 	
 	 * ### Category Table
 	   <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CATEGORY.png">
