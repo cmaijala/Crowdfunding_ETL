@@ -46,8 +46,6 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ☑️ Deliverable 3: Create ERD (Entity-Relationship Diagram)
 
-☑️ Deliverable 4: SQL Analysis 
-
 ## ETL Process
 ## Deliverable 1: Extract Data
   * ### Data Sources: The data was sourced from a combination of CSV files and Excel spreadsheets.
@@ -92,25 +90,6 @@ The final data can be found in contacts_cleaned.csv and campaign_cleaned.csv.
   <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
 
 The ERD can be found in ERD-ETLproject2.png.
-
-## Deliverable 4: SQL Analysis
-  * ### After loading the cleaned data into PostgreSQL, we performed various SQL queries to analyze the data. The queries focused on understanding crowdfunding campaign outcomes, backers, and funding amounts. We also created summary tables to identify trends and insights.
-  * ### Example Queries:
-  	* JOIN queries to link campaigns with their respective categories and contacts.
-   	* Calculated the remaining goal for each campaign using simple SQL arithmetic.
-      
-The SQL scripts for this analysis can be found in crowdfunding_SQL_Analysis.sql.
-
-## Conclusions
-#### Key Findings:
-- **Campaign Success Factors**: Patterns indicate higher success rates for categories like technology and creative arts.
-- **Contact Information Quality**: Cleaning the contacts data improved the accuracy of marketing and outreach efforts.
-- **Data Consistency**: Normalizing category and subcategory data ensured consistency, reducing potential errors during analysis.
-
-#### Impact:
-- **Improved Decision-Making**: Campaign organizers can now identify trends to optimize proposals for success.
-- **Enhanced Contact Management**: The cleaned contact data can be used by marketing and outreach teams to ensure that they are working with up-to-date and accurate information, reducing wasted effort in communicating with invalid or incomplete contacts.
-- **Scalability of ETL Process**: The framework created in this project can be applied to similar datasets and projects. Future applications could include further automation of the extraction, transformation, and loading processes, as well as real-time data handling for more dynamic insights.
 
 ## References
 • Data Sources: The data was sourced from campaign.csv, category.csv, subcategory.csv, contacts.xlsx, and crowdfunding.xlsx as provided for this ETL challenge.
