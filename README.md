@@ -133,6 +133,7 @@ The code used can be found in the file `ETL_Mini_Project_CMaijala_ASerpa_KChu.ip
   - **Subcategory Table:**
     
     <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/b9f2c935b6057438ad8e797a65d78c58d7b629cb/SELECT-SUBCATEGORY.png">
+    
     The Subcategory table can be found in `SELECT-SUBCATEGORY.png`.
 
 ## References
