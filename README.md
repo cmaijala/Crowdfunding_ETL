@@ -112,6 +112,7 @@ The code used can be found in the file `ETL_Mini_Project_CMaijala_ASerpa_KChu.ip
   - **Bulk Loading:** The transformed DataFrames were imported into PGAdmin.
 
   - **Campaign Table:**
+    
     <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
     
     The Campaign table can be found in `SELECT-CAMPAIGN.png`.
