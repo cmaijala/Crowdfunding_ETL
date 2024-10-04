@@ -81,60 +81,59 @@ The code to extract these datasets can be found in the file `Final_ETL_Mini_Proj
   <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
 
 ## Deliverable 2: Clean and Transform Data
-  * ### Data Cleaning:
-	  * Handled Missing Values: dropna() was used to remove rows with missing data.
-	  * Removing Duplicates: drop_duplicates() was applied to ensure data integrity.
-	  * Standardizing Column Names: str.lower().replace() was used to ensure consistency across columns.
-	  * Data Validation: Checked for inconsistencies and corrected erroneous entries.
 
-  * ### Data Transformation:
-  	* Changing Data Types: Applied pd.to_numeric() and astype() to convert data for database compatibility.
-   	* Merging DataFrames: Combined category and subcategory DataFrames with the campaign DataFrame to maintain campaign structure.
-   
-The code used can be found in Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb. 
-The final data can be found in the Resources folder as: campaign.csv, category.csv, subcategory.csv, contacts.csv. 
+- **Data Cleaning:**
+  - Standardized Column Names: Used `str.lower().replace()` to ensure consistency across columns.
+  - Validated Data: Checked for inconsistencies and corrected erroneous entries.
+
+- **Data Transformation:**
+  - Changed Data Types: Applied `pd.to_numeric()` and `astype()` to convert data for database compatibility.
+  - Merged DataFrames: Combined category and subcategory DataFrames with the campaign DataFrame to maintain campaign structure.
+
+The code used can be found in the file `Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`. The final data is located in the Resources folder as: `campaign.csv`, `category.csv`, `subcategory.csv`, `contacts.csv`. 
 
 ## Deliverable 3: Load Data and Create ERD (Entity-Relationship Diagram)
-  * ### Final Database:
-  	* An Entity-Relationship Diagram (ERD) was created in PGAdmin to visualize the relationships between campaigns, categories, subcategories, and contacts.
-  	  * ###  Entity-Relationship Diagram:
-	  <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
-		
-  		The ERD can be found in ERD-ETLproject2.png. 
- 
-  * ### Define Schema:
-  	* Based on the ERD, the database schema was defined to support these relationships, ensuring proper data organization and integrity.
-   		* The schema can be found in the crowdfunding_db_schema.sql file.
-* ### Loading Process:
- 	* We connected to the PostgreSQL database using SQL and manually loaded the data from the previously created CSV files.
-	* Bulk Loading: The transformed DataFrames were imported into PGAdmin. 
 
-	 * ### Campaign Table
-		<img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
-	   	The Category table can be found in SELECT-CAMPAIGN.png.
-	
-	 * ### Category Table
-	   <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CATEGORY.png">
-	   The Category table can be found in SELECT-CATEGORY.png.
-	
-	* ### Contacts Table
-	   <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CONTACTS.png">
-		The Contacts table can be found in SELECT-Contacts.png.
-	 
-	* ### Subcategory Table
-	   <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/b9f2c935b6057438ad8e797a65d78c58d7b629cb/SELECT-SUBCATEGORY.png">
-	   The Subcategory table can be found in SELECT-SUBCATEGORY.png.
+- **Final Database:**
+  - An Entity-Relationship Diagram (ERD) was created in PGAdmin to visualize the relationships between campaigns, categories, subcategories, and contacts.
+  
+  - **Entity-Relationship Diagram:**
+    <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
+    The ERD can be found in `ERD-ETLproject2.png`.
 
+- **Define Schema:**
+  - Based on the ERD, we defined the database schema to support these relationships, ensuring proper data organization and integrity. The schema can be found in the file `crowdfunding_db_schema.sql`.
+
+- **Loading Process:**
+  - We connected to the PostgreSQL database using SQL and manually loaded the data from the previously created CSV files.
+  - **Bulk Loading:** The transformed DataFrames were imported into PGAdmin.
+
+  - **Campaign Table:**
+    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
+    The Campaign table can be found in `SELECT-CAMPAIGN.png`.
+
+  - **Category Table:**
+    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CATEGORY.png">
+    The Category table can be found in `SELECT-CATEGORY.png`.
+
+  - **Contacts Table:**
+    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CONTACTS.png">
+    The Contacts table can be found in `SELECT-CONTACTS.png`.
+
+  - **Subcategory Table:**
+    <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/b9f2c935b6057438ad8e797a65d78c58d7b629cb/SELECT-SUBCATEGORY.png">
+    The Subcategory table can be found in `SELECT-SUBCATEGORY.png`.
 
 ## References
-• Data Sources: The data was sourced from campaign.csv, category.csv, subcategory.csv, contacts.xlsx, and crowdfunding.xlsx as provided for this ETL challenge.
 
-• Code: The code for extracting and transforming the data is located in the Jupyter notebook file Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb, which can be accessed within the project repository.
+- **Data Sources:** The data was sourced from `campaign.csv`, `category.csv`, `subcategory.csv`, `contacts.xlsx`, and `crowdfunding.xlsx`, as provided for this ETL challenge.
 
-• Pandas Documentation: Used for data extraction and cleaning with functions like read_csv() and read_excel() for CSV and Excel files.
-URL: https://pandas.pydata.org/docs/
+- **Code:** The code for extracting and transforming the data is located in the Jupyter notebook file `Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`, which can be accessed within the project repository.
 
-• ChatGPT Assistance: Ongoing guidance and support were provided by ChatGPT throughout the project for ETL best practices and Python implementation.
+- **Pandas Documentation:** Used for data extraction and cleaning with functions like `read_csv()` and `read_excel()` for CSV and Excel files.  
+  URL: [Pandas Documentation](https://pandas.pydata.org/docs/)
+
+- **ChatGPT Assistance:** Ongoing guidance and support were provided by ChatGPT throughout the project for ETL best practices and Python implementation.
 	
 #### Data for this dataset was generated by edX Boot Camps LLC, and is intended for educational purposes only.
 
