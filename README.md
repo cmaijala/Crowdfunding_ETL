@@ -10,7 +10,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ### In this extract, transform, load (ETL) mini project, we utilized Pandas to build an ETL pipeline for data extraction and transformation. We employed Python dictionary methods, along with Pandas and NumPy, to efficiently manage the extraction and transformation processes. The project was implemented using the Pandas library within a Python kernel.
 
-### After cleaning and transforming the data, we generated four CSV files, which served as the basis for creating an Entity-Relationship Diagram (ERD). The ERD helped us visualize the relationships between different entities, enhancing our understanding of their interactions.
+### After cleaning and transformed the data, we generated four CSV files, which served as the basis for creating an Entity-Relationship Diagram (ERD). The ERD helped us visualize the relationships between different entities, enhancing our understanding of their interactions.
 
 ### Using the ERD as a guide, we created a database schema for PostgreSQL. This schema defined the organization of our database tables and their relationships, including rules to ensure data accuracy and reliability.
 
@@ -18,7 +18,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 
 ## Resources
 	- **Source Code:**
-	  - Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
+	  - ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
 	  
 	- **SQL Scripts:**
 	  - crowdfunding_db_schema.sql
@@ -63,7 +63,7 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
   - contacts.xlsx
 
 - **Methods:** The data was extracted using Pandas.
-The code to extract these datasets can be found in the file `Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`.
+The code to extract these datasets can be found in the file `ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`.
 
 - **Create the Category and Subcategory DataFrames:**
   
@@ -90,15 +90,18 @@ The code to extract these datasets can be found in the file `Final_ETL_Mini_Proj
   - Changed Data Types: Applied `pd.to_numeric()` and `astype()` to convert data for database compatibility.
   - Merged DataFrames: Combined category and subcategory DataFrames with the campaign DataFrame to maintain campaign structure.
 
-The code used can be found in the file `Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`. The final data is located in the Resources folder as: `campaign.csv`, `category.csv`, `subcategory.csv`, `contacts.csv`. 
+The code used can be found in the file `ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`. The final data is located in the Resources folder as: `campaign.csv`, `category.csv`, `subcategory.csv`, `contacts.csv`. 
 
 ## Deliverable 3: Load Data and Create ERD (Entity-Relationship Diagram)
 
 - **Final Database:**
+  
   - An Entity-Relationship Diagram (ERD) was created in PGAdmin to visualize the relationships between campaigns, categories, subcategories, and contacts.
   
   - **Entity-Relationship Diagram:**
+    
     <img width="600" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/cca806373af0a6df4b27af9e5b624eb987808491/ERD-ETLProject2.png">
+    
     The ERD can be found in `ERD-ETLproject2.png`.
 
 - **Define Schema:**
@@ -110,17 +113,24 @@ The code used can be found in the file `Final_ETL_Mini_Project_CMaijala_ASerpa_K
 
   - **Campaign Table:**
     <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
+    
     The Campaign table can be found in `SELECT-CAMPAIGN.png`.
 
   - **Category Table:**
+    
     <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CATEGORY.png">
+
+
     The Category table can be found in `SELECT-CATEGORY.png`.
 
   - **Contacts Table:**
+    
     <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CONTACTS.png">
+    
     The Contacts table can be found in `SELECT-CONTACTS.png`.
 
   - **Subcategory Table:**
+    
     <img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/b9f2c935b6057438ad8e797a65d78c58d7b629cb/SELECT-SUBCATEGORY.png">
     The Subcategory table can be found in `SELECT-SUBCATEGORY.png`.
 
