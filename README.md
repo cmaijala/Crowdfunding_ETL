@@ -8,40 +8,46 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
   
 ## Project Overview
 
-### In this Extract, Transform, Load (ETL) mini project, we focused on building an ETL pipeline using Python and Pandas to extract and transform data. We utilized Python dictionary methods and regular expressions to efficiently handle the extraction and transformation processes.
+### In this extract, transform, load (ETL) mini project, we utilized Pandas to build an ETL pipeline for data extraction and transformation. We employed Python dictionary methods, along with Pandas and NumPy, to efficiently manage the extraction and transformation processes. The project was implemented using the Pandas library within a Python kernel.
 
-### After cleaning and transforming the data, we generated four CSV files, which served as the basis for creating an Entity-Relationship Diagram (ERD). The ERD helped us visualize the relationships between different entities, allowing us to understand how they interact with one another.
+### After cleaning and transforming the data, we generated four CSV files, which served as the basis for creating an Entity-Relationship Diagram (ERD). The ERD helped us visualize the relationships between different entities, enhancing our understanding of their interactions.
 
-### Using the ERD as a guide, we created a database schema for PostgreSQL. This schema defined how our database tables were organized and how they related to each other, including rules to ensure the data remained accurate and reliable.
+### Using the ERD as a guide, we created a database schema for PostgreSQL. This schema defined the organization of our database tables and their relationships, including rules to ensure data accuracy and reliability.
 
-### Finally, we uploaded the cleaned data into the PostgreSQL database for efficient storage and management. This setup provided a solid foundation for future queries and operations while ensuring data integrity and security.
+### Finally, we uploaded the cleaned data into the PostgreSQL database for efficient storage and management, providing a solid foundation for future queries and operations while ensuring data integrity and security. 
 
 ## Resources
-	Source Code:
-	  	• Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
-	SQL Scripts:
-		• crowdfunding_db_schema.sql
-  		• SELECT-CAMPAIGN.png
-    	• SELECT-CATEGORY.png
-      	• SELECT-CONTACTS.png
-		• SELECT-SUBCATEGORY.png
-  	Input Files:
-   		• crowdfunding.xlsx 
-     	• contacts.xlsx	
-     Output Files:
-		• campaign.csv
-		• category.csv
-  		• subcategory.csv
-		• contacts.csv
-		• ERD-ETLproject2.png
-	Software:
-		• PostgreSQL
-		• PGAdmin
-		• Python 3.10 or newer versions
+	- **Source Code:**
+	  - Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb
+	  
+	- **SQL Scripts:**
+	  - crowdfunding_db_schema.sql
+	  - SELECT-CAMPAIGN.png
+	  - SELECT-CATEGORY.png
+	  - SELECT-CONTACTS.png
+	  - SELECT-SUBCATEGORY.png
+	  
+	- **Input Files:**
+	  - crowdfunding.xlsx 
+	  - contacts.xlsx
+		
+	- **Output Files:**
+	  - campaign.csv
+	  - category.csv
+	  - subcategory.csv
+	  - contacts.csv
+	  - ERD-ETLproject2.png
+	
+	- **Technologies Used:**
+	  - PostgreSQL
+	  - PGAdmin
+	  - Pandas
+	  - NumPy
+	  - Python 3.10 Kernel
 
 ## Objective
 
-### Our goal is to understand the ETL concepts relevant to the dataset through systematic steps and effective tools commonly used in database modeling and analysis. The outline of our deliverables includes:
+### Our goal is to understand ETL concepts relevant to the dataset through systematic steps and effective tools used in database modeling and analysis. The outline of our deliverables includes:
 
 ☑️ Deliverable 1: Extract Data
 
@@ -50,26 +56,33 @@ Photo by <a href="https://unsplash.com/@cowomen?utm_content=creditCopyText&utm_m
 ☑️ Deliverable 3: Create ERD (Entity-Relationship Diagram) and Load Data
 
 ## ETL Process
-## Deliverable 1: Extract Data
-  * ### Data Sources: The data was sourced from Excel spreadsheets.
- 	 * These included: crowdfunding.xlsx, contacts.xlsx. 
+### Deliverable 1: Extract Data
 
-  * ### Methods: The data was extracted using Pandas and Python.
+- **Data Sources:** The data came from Excel spreadsheets, including:
+  - crowdfunding.xlsx
+  - contacts.xlsx
+
+- **Methods:** The data was extracted using Pandas.
+The code to extract these datasets can be found in the file `Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`.
+
+- **Create the Category and Subcategory DataFrames:**
   
-The code to extract these datasets can be found in the file Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb.
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/bc7a6f88-2239-4707-aad9-5362000522fc">
 
-  * ### Create the Category and Subcategory DataFrames
-    <img width="500" alt="image" src="https://github.com/user-attachments/assets/bc7a6f88-2239-4707-aad9-5362000522fc">
-  * ### Create the Campaign DataFrame
-    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2baf9eee-16c0-42bd-9808-98dd70425893">
-  * ### Create the Contacts DataFrame
-    <img width="400" alt="image" src="https://github.com/user-attachments/assets/e7c9bb20-505b-4319-8f9e-19fbe48fd419">
-  * ### Create the Crowdfunding Database
-    <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
+- **Create the Campaign DataFrame:**
+  <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2baf9eee-16c0-42bd-9808-98dd70425893">
+
+- **Create the Contacts DataFrame:**
+
+  
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/e7c9bb20-505b-4319-8f9e-19fbe48fd419">
+
+- **Create the Crowdfunding Database:**
+  <img width="1000" alt="image" src="https://github.com/user-attachments/assets/2226079c-6591-4c9b-b985-4729c9815df0">
 
 ## Deliverable 2: Clean and Transform Data
   * ### Data Cleaning:
-	  * Handling Missing Values: dropna() was used to remove rows with missing data.
+	  * Handled Missing Values: dropna() was used to remove rows with missing data.
 	  * Removing Duplicates: drop_duplicates() was applied to ensure data integrity.
 	  * Standardizing Column Names: str.lower().replace() was used to ensure consistency across columns.
 	  * Data Validation: Checked for inconsistencies and corrected erroneous entries.
@@ -77,7 +90,6 @@ The code to extract these datasets can be found in the file Final_ETL_Mini_Proje
   * ### Data Transformation:
   	* Changing Data Types: Applied pd.to_numeric() and astype() to convert data for database compatibility.
    	* Merging DataFrames: Combined category and subcategory DataFrames with the campaign DataFrame to maintain campaign structure.
-    	* New Calculations: Derived columns like percentage goal achieved by dividing pledged by goal.
    
 The code used can be found in Final-ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb. 
 The final data can be found in the Resources folder as: campaign.csv, category.csv, subcategory.csv, contacts.csv. 
@@ -94,9 +106,8 @@ The final data can be found in the Resources folder as: campaign.csv, category.c
   	* Based on the ERD, the database schema was defined to support these relationships, ensuring proper data organization and integrity.
    		* The schema can be found in the crowdfunding_db_schema.sql file.
 * ### Loading Process:
-	* The cleaned data was then loaded into PostgreSQL.
- 	* We used SQLAlchemy to connect to the PostgreSQL database from Python, allowing us to create tables and insert data programmatically.
-	* Bulk Loading: The transformed DataFrames were loaded into PostgreSQL in bulk using the Pandas .to_sql() function, ensuring efficient and fast insertion of data.
+ 	* We connected to the PostgreSQL database using SQL and manually loaded the data from the previously created CSV files.
+	* Bulk Loading: The transformed DataFrames were imported into PGAdmin. 
 
 	 * ### Campaign Table
 		<img width="800" alt="image" src="https://github.com/cmaijala/Crowdfunding_ETL/blob/0660dbbe3e1a7a37b8c697934601d5d49ddc39d3/SELECT-CAMPAIGN.png">
