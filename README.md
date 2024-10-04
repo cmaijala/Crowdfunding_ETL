@@ -140,7 +140,7 @@ The code used can be found in the file `ETL_Mini_Project_CMaijala_ASerpa_KChu.ip
 
 - **Data Sources:** The data was sourced from `campaign.csv`, `category.csv`, `subcategory.csv`, `contacts.xlsx`, and `crowdfunding.xlsx`, as provided for this ETL challenge.
 
-- **Code:** The code for extracting and transforming the data is located in the Jupyter notebook file `Final_ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`, which can be accessed within the project repository.
+- **Code:** The code for extracting and transforming the data is located in the Jupyter notebook file `ETL_Mini_Project_CMaijala_ASerpa_KChu.ipynb`, which can be accessed within the project repository.
 
 - **Pandas Documentation:** Used for data extraction and cleaning with functions like `read_csv()` and `read_excel()` for CSV and Excel files.  
   URL: [Pandas Documentation](https://pandas.pydata.org/docs/)
